@@ -10,7 +10,7 @@ order_payments = pd.read_csv('dashboard/order_payments_df.csv')
 orders = pd.read_csv('dashboard/orders_df.csv')
 
 # Sidebar image
-st.sidebar.image('ecomerce.png')
+st.sidebar.image('dashboard/ecomerce.png')
 
 # Visualization selection
 visualization_options = st.sidebar.multiselect("Select Visualization", 
