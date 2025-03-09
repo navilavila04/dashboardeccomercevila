@@ -4,10 +4,10 @@ import seaborn as sn
 import streamlit as st
 
 # Load dataset
-customer = pd.read_csv('customer_df.csv')
-new_order_review = pd.read_csv('new_order_reviews_df.csv')
-order_payments = pd.read_csv('order_payments_df.csv')
-orders = pd.read_csv('orders_df.csv')
+customer = pd.read_csv('dashboard/customer_df.csv')
+new_order_review = pd.read_csv('dashboard/new_order_reviews_df.csv')
+order_payments = pd.read_csv('dashboard/order_payments_df.csv')
+orders = pd.read_csv('dashboard/orders_df.csv')
 
 # Sidebar image
 st.sidebar.image('ecomerce.png')
